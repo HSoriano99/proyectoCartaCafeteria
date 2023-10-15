@@ -1,3 +1,21 @@
 .titulo {
     padding-left: 0;
 }
+
+.divfotos {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.imageneshome img {
+    width: 20em;
+    height: 15em;
+    margin: 0.5em;
+}
+
+.imageneshome {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
