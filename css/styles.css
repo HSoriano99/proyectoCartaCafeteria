@@ -4,6 +4,7 @@
 
 .divfotos {
     display: flex;
+    flex-direction: row;
     justify-content:space-around;
     align-items: center;
 }
@@ -14,8 +15,21 @@
     margin: 0.5em;
 }
 
-.imageneshome {
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
+@media (max-width:500px) {
+    .imageneshome img {
+        width: 20em;
+        height: 12em;
+        padding-left: 2em;        
+    }
+}
+
+    
+.imagen {
+    transition: 1s;
+}
+
+.imagen:hover {
+    width: 21em;
+    height: 16em;
+    transition: 1s;
 }
