@@ -60,11 +60,40 @@
 @media (max-width:500px) {
     .carta {
         flex-direction: column;
+        
+    }
+    
+}
+@media (max-width:500px) {
+    .cartacafe {
+        justify-content: flex-start;
+    }
+    
+}@media (max-width:500px) {
+    .cartacomida {
+        justify-content:flex-start;
+        
     }
     
 }
 
+.logoscontacto {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
 
+}
+
+.logoscontacto img {
+    margin: 3em;
+}
+
+@media (max-width:500px) {
+    .logoscontacto {
+        flex-direction: column;
+    }
+    
+}
 
 
 
