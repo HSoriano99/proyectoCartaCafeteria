@@ -9,14 +9,14 @@
     align-items: center;
 }
 
-.imageneshome img {
+.imagenesprincipales img {
     width: 20em;
     height: 15em;
     margin: 0.5em;
 }
 
 @media (max-width:500px) {
-    .imageneshome img {
+    .imagenesprincipales img {
         width: 20em;
         height: 12em;
         padding-left: 2em;        
@@ -42,7 +42,7 @@
 }
 
 .cartacafe {
-    width: 50em;
+    width: 40em;
     display: flex;
     justify-content: space-between;
     margin-right: 3em;
@@ -56,3 +56,19 @@
     margin-left: 3em;
     margin-right: 3em;
 }
+
+@media (max-width:500px) {
+    .carta {
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
